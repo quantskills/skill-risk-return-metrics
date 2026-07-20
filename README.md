@@ -48,3 +48,12 @@ Listed → Runnable → Verified. Local checks passing: `py_compile`, frontmatte
 (lead ≤200 chars, `**Why:**` present), `run()` signature ↔ parameters match, and a
 synthetic-data smoke test of every metric + edge case (illegal symbol, zero-volatility
 series → `null` ratios).
+
+## Disclaimer / 免责声明
+
+- **Research & educational use only.** Output is informational research, **not investment advice**, and makes **no promise of returns** or profitability.
+- **Data sources:** A-share via `panda_data`; HK / US via `tqx_data` (platform-provided). Output quality depends entirely on upstream data availability and correctness.
+- **Assumptions & limitations:** metrics use daily closes, annualized with 252 trading days/year; ratios whose denominator is 0 (flat series, no drawdown/down-days) return `null`. Results are point-in-time; adjustments beyond what the upstream feed provides are not applied.
+- **Risk boundary:** do not use as the sole basis for real-money decisions; validate independently and understand market risk.
+
+中文:仅供研究与教育用途,输出为信息性研究,**不构成投资建议,不承诺任何收益**。数据来源:A股经 `panda_data`、港美股经 `tqx_data`(平台提供),结果质量取决于上游数据。指标基于日线、按 252 交易日/年年化,分母为 0 时返回 `null`;为时点结果。**请勿作为实盘唯一依据**,注意市场风险。
