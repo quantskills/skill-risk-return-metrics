@@ -1,5 +1,6 @@
 ---
 name: risk_return_metrics
+license: GPL-3.0-only
 description: |
   Risk/return dossier for ONE symbol over a window: annualized return, volatility, Sharpe, Sortino, max drawdown, Calmar, win-rate. Auto-routes A-share / HK / US by suffix.
   Use when the user asks "how risky / how good is X", or wants 夏普 / 最大回撤 / 年化 over a window.
