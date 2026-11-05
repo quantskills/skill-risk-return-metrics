@@ -78,3 +78,7 @@ Ratios whose denominator is 0 (flat series, no drawdown, no down-days) return `n
 means re-deriving Sharpe / max-drawdown / Calmar by hand every time. Folding them into
 one panda_data / tqx_data-backed call gives the agent a consistent, cross-market risk
 dossier with explicit `null`s for undefined ratios instead of silent NaNs.
+
+## Pandadata compatibility
+
+[Pandadata 1.0.6 compatibility](references/pandadata-compatibility.md) — exact SDK baseline, validation scope, and shared guidance for all supported agent runtimes.
